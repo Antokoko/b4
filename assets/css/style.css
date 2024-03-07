@@ -1972,11 +1972,11 @@ font-family: var(--ff-amiri);
 
 #parrafo {
   margin-top: 10px;
-  font-size: 1vw;
+  font-size: 3rem;
   text-align: center;
   justify-content: center;
-  align-items: center;
   font-family: var(--ff-amiri);
+
 }
 
 
