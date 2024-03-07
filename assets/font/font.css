@@ -1,0 +1,59 @@
+/*-----------------------------------*\
+  #style.css
+\*-----------------------------------*/
+
+
+
+/**
+ * PP EDITORIAL NEW ULTRAL
+ */
+
+
+ @font-face {
+  font-family: 'PP Editorial New Ultralight';
+  font-weight: 200;
+  src: local('PP Editorial New Ultralight Italic'), local('PP Editorial New Ultralight Italic'),
+  url('../font/PPEditorialNew-UltralightItalic.ttf') format('ttf');
+}
+
+
+
+/**
+ * CINZEL FONT
+ */
+
+@font-face {
+  font-family: 'Cinzel', serif;
+  src: local('Cinzel Regular'), local('Cinzel-Regular'),
+  url('./Cinzel/Cinzel-Regular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cinzel', serif;
+  src: local('Cinzel Medium'), local('Cinzel-Medium'),
+      url('./Cinzel/Cinzel-Medium.ttf') format('ttf');
+  font-weight: 500;
+  font-style: normal;
+
+}
+
+
+
+/**
+ * AMIRI FONT
+ */
+
+@font-face {
+  font-family: 'Amiri', serif;
+  src: local('Amiri Italic'), local('Amiri-Italic'),
+      url('./Amiri/Amiri-Italic.ttf') format('ttf');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+
+

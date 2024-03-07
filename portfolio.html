@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Boudoir Photography by Pierre</title>
+    <meta name="Boudoir Photography" content="Pierre Landsmand" />
+    <meta name="Boudoir Photography Studio - Lima Perú" content="" />
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/svg+xml" />
+
+    <!-- 
+    - custom css link
+  -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - custom font link
+  -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@1,400;1,700&amp;family=Cinzel:wght@400;500&amp;display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 
+    - preload images
+  -->
+    <div class="loading" data-loading>
+      <img src="./assets/images/iconloader.png" width="50" height="60" alt="" />
+      <img
+        src="./assets/images/loading-circle.svg"
+        width="80"
+        height="80"
+        alt=""
+        class="circle"
+      />
+    </div>
+  </head>
+
+  <body id="top">
+    <!-- 
+    - #HEADER
+  -->
+
+    <nav>
+      <div class="logoboudoir">
+        <a href="./index.html"
+          ><img src="./assets/images/logoBoudoir+(2).png" class="logoboudoir"
+        /></a>
+      </div>
+      <div class="togglenuevobtn">
+        <button
+          class="burguerbtn"
+          onclick="this.classList.toggle('active');"
+        ></button>
+      </div>
+    </nav>
+
+    <div class="overlaynuevo">
+      <div class="overlaymenu2">
+        <div class="menuitem1">
+          <p><a href="./index.html" class="active">Inicio</a></p>
+        </div>
+        <div class="menuitem1">
+          <p><a href="./index.html#about" class="active">Sobre mi</a></p>
+        </div>
+        <div class="menuitem1">
+          <p><a href="#" class="active">Contacto</a></p>
+        </div>
+      </div>
+
+      <div class="subnav">
+        <p><a href="https://twitter.com/BoudoirByPierre">Twitter</a></p>
+        <p>●</p>
+        <p><a href="https://www.instagram.com/BoudoirByPierre">Instagram</a></p>
+        <p>●</p>
+        <p><a href="https://www.facebook.com/BoudoirByPierre/">Facebook</a></p>
+        <p>●</p>
+        <p><a href="mailto:BoudoirByPierre@gmail.com">Email</a></p>
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <div class="sidebar-item">
+        <p id="header">Boudoir <br />Portraits</p>
+        <p id="parrafo">
+          A través de mi lente, capturo el encanto único en cada individuo.
+          <br />
+          Mi objetivo es resaltar no sólo tu belleza exterior, sino también
+          <br />
+          la autenticidad y confianza que emanas en cada imagen.
+        </p>
+      </div>
+    </div>
+
+    <div class="slider" >
+      <div class="slider-wrapper">
+        <div class="slide">
+          <img class="imgportfolio" src="assets/images/img1.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img class="imgportfolio" src="assets/images/img23.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img class="imgportfolio" src="assets/images/img15.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img class="imgportfolio" src="assets/images/img2.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img class="imgportfolio" src="assets/images/img7.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img class="imgportfolio" src="assets/images/img4.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img class="imgportfolio" src="assets/images/img13.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img class="imgportfolio" src="assets/images/img5.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img class="imgportfolio" src="assets/images/img6.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img class="imgportfolio" src="assets/images/img14.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img class="imgportfolio" src="assets/images/img10.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img class="imgportfolio" src="assets/images/img9.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img class="imgportfolio" src="assets/images/img11.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img class="imgportfolio" src="assets/images/img12.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img class="imgportfolio" src="assets/images/img8.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img class="imgportfolio" src="assets/images/img25.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img class="imgportfolio" src="assets/images/img26.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img class="imgportfolio" src="assets/images/img31.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- 
+    - #CUSTOM CURSOR
+  -->
+
+    <div class="cursor" data-cursor></div>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
