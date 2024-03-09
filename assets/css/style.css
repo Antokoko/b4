@@ -1453,12 +1453,11 @@ padding-top: 5vw;
 .service .section-subtitle {
   padding-inline: 10px;
   margin-block-end: 55px;
-  font-style: italic;
-  font-family: var(--ff-amiri);
+  font-family: var(--ff-cinzel);
   font-size: clamp(2rem, 7cqi, 8rem);
   color: #cdc6be;
  text-transform: uppercase;
- letter-spacing: 2px;
+ letter-spacing: -0.1px;
  font-weight: 100;
 
 }
@@ -1479,7 +1478,7 @@ padding-top: 5vw;
   font-weight: var(--fw-300);
   line-height: 1.5;
   margin-block: 10px 25px;
-font-family: var(--ff-amiri);
+  font-family: var(--ff-amiri);
 }
 
 .service-card h3 {
@@ -1513,10 +1512,11 @@ font-family: var(--ff-amiri);
 
 .portfolio .section-title { 
   margin-block-end: 60px; 
-  font-family: var(--ff-amiri);
+  font-family: var(--ff-cinzel);
   font-weight: 200;
   letter-spacing: -0.2vw;
-
+  font-size: var(--fs-3);
+  letter-spacing: -0.1px;
   
 }
 
@@ -1642,7 +1642,8 @@ font-family: var(--ff-amiri);
 
 
 .copyright,
-.social-list { padding-block-end: 15px; }
+.social-list { padding-block-end: 15px;
+; }
 
 .copyright  {
   font-weight: var(--fw-300);
@@ -1657,6 +1658,27 @@ font-family: var(--ff-amiri);
 }
   
 
+.fa-instagram:hover {
+  transform: scale(1.5);
+  color: #fd5949;
+}
+
+
+
+
+.fa-x-twitter:hover {
+  transform: scale(1.5);
+  color: #1e8eff;
+}
+
+
+
+
+.fa-envelope:hover {
+  transform: scale(1.5);
+  color: #ffffff;
+  font-size: 20px;
+}
 
 
 
@@ -2495,7 +2517,9 @@ font-family: var(--ff-amiri);
 .about .wrapper { padding-inline-start: 80px; }
 
 #service-lable {
-  font-size: 2.8rem;
+  font-size: 2.5rem;
+  font-family: var(--ff-cinzel);
+  font-style: normal;
 }
 
 
