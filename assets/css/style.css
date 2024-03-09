@@ -1659,23 +1659,17 @@ font-family: var(--ff-amiri);
   
 
 .fa-instagram:hover {
-  transform: scale(1.5);
+  transform: scale(1.4);
   color: #fd5949;
 }
 
-
-
-
 .fa-x-twitter:hover {
-  transform: scale(1.5);
+  transform: scale(1.4);
   color: #1e8eff;
 }
 
-
-
-
 .fa-envelope:hover {
-  transform: scale(1.5);
+  transform: scale(1.4);
   color: #ffffff;
   font-size: 20px;
 }
